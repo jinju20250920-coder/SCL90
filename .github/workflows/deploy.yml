@@ -3,7 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # 或 master，根据您的默认分支
+      - main
+      - cursor/scl90-5c97  # 当前开发分支
   workflow_dispatch:
 
 permissions:

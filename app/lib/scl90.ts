@@ -105,10 +105,10 @@ export const questions: Question[] = [
 
 export const options = [
   { value: 1, label: "没有" },
-  { value: 2, label: "很轻" },
-  { value: 3, label: "中等" },
-  { value: 4, label: "偏重" },
-  { value: 5, label: "严重" }
+  { value: 2, label: "很少" },
+  { value: 3, label: "有时" },
+  { value: 4, label: "经常" },
+  { value: 5, label: "频繁" }
 ];
 
 export const factors: Factor[] = [

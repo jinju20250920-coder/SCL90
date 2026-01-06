@@ -7,6 +7,11 @@ interface QuestionCardProps {
 }
 
 export default function QuestionCard({ question, selectedOption, onSelect }: QuestionCardProps) {
+  // 安全检查
+  if (!question) {
+    return <div className="text-center text-gray-500">题目加载中...</div>;
+  }
+  
   return (
     <div className="flex flex-col items-center w-full max-w-md mx-auto p-4">
       <h2 className="text-xl font-bold text-center mb-8 text-gray-800 leading-relaxed">

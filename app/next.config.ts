@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',  // 启用静态导出
+  output: 'export',  // 启用静态导出（自动禁用 serverActions 和 RSC）
   images: {
     unoptimized: true,  // GitHub Pages 不支持 Next.js 图片优化
   },

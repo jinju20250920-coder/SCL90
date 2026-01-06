@@ -1,0 +1,24 @@
+# CNAME 文件配置说明
+#
+# 购买域名后，请将此文件重命名为 CNAME（去掉 .example 后缀）
+# 并将下面的示例域名替换为你的真实域名
+#
+# 配置步骤：
+# 1. 重命名文件：CNAME.example -> CNAME
+# 2. 编辑文件，填入你的域名（去掉前面的 # 号）
+# 3. 推送到 GitHub，等待自动部署
+#
+# 域名格式示例：
+# yourdomain.com
+# www.yourdomain.com
+# test.yourdomain.com
+#
+# 注意：
+# - 只能填入一个域名
+# - 不要包含 http:// 或 https://
+# - 不要包含路径（如 /test）
+#
+# 示例：
+# scl90.com
+# www.scl90.com
+# test.scl90.shuangmian.top

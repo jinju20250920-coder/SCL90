@@ -65,6 +65,7 @@ export default function SymptomPie({ factorResults }: SymptomPieProps) {
               paddingAngle={2}
               dataKey="value"
               label={({ name, percent }) => {
+                if (!percent) return null;
                 const percentage = (percent * 100).toFixed(0);
                 if (Number(percentage) < 8) return null;
                 return `${percentage}%`;
